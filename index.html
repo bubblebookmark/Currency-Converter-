@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- code from CodingNepal-->
+ <html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Currency Converter</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="veiwpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>Currency Converter</header>
+            <form action="#">
+                <div class="amount">
+                    <p>Enter amount</p>
+                    <input type="text" value="1">
+                </div>
+                <div class="drop-list">
+                    <div class="from">
+                        <p>From</p>
+                        <div class="select-box">
+                            <img src="https://flagsapi.com/CG/shiny/64.png" alt="flag">
+                            <select>
+                                <option value="FR">France</option>
+                                <option value="CG">Switzerland</option>
+                                <option value="CA">Canada</option>
+                                <option value="CN">China</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="US">United States</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="icon"><i class="fa fa-exchange"></i></div>
+                    <div class="to">
+                        <p>To</p>
+                        <div class="select-box">
+                            <img src="https://flagsapi.com/FR/shiny/64.png" alt="flag">
+                            <select>
+                                <option value="FR">France</option>
+                                <option value="CG">Switzerland</option>
+                                <option value="CA">Canada</option>
+                                <option value="CN">China</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="US">United States</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="exchange-rate">1 swiss = 1.09 Euro</div>
+                <button>Get exchange-rate</button>
+            </form>
+        </div>
+        
+    </body>
+ </html>
